@@ -1,13 +1,13 @@
 # tasksList-application
 
 ## Description
-This is a simple taskList application with possibility of adding, removing, marking tasks complete or to-do and showing or hiding complete tasks.
+This is a requirements list with possibility to switch between met and not met requirements and show or not comments for these requirements.
 
 ## Link
-https://gp231982.github.io/taskslist/
+https://gp231982.github.io/machining_requirements/
 
 ## Demo
-https://user-images.githubusercontent.com/68773588/221028271-4450538c-555e-4ce5-ae4a-5e2fabecfaf4.mp4
+N/A
 
 
 
