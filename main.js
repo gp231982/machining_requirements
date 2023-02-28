@@ -7,31 +7,33 @@ let tasks = [
   {
     content: "Min 3 lata doświadczenia w obszarze obróbki skrawaniem",
     done: true,
-    comment: "Ponad 10 lat doświadczenia w obszarze obróbki skrawaniem",
+    comment:
+      "Posiadam ponad 10 lat doświadczenia w obszarze obróbki skrawaniem",
   },
   {
     content: "Minimalnie 3 uruchomione projekty w obszarze obróbki skrawaniem.",
-    done: false,
+    done: true,
     comment:
-      "Przykładowe projekty to: L538, Foton, J11. Projekty uruchamiane zarównoe w Krośnie jak i w Fangshan",
+      "Przykładowe projekty, które wdrożyłem to: L538, Foton, J11. Projekty uruchamiane zarównoe w Krośnie jak i w Fangshan",
   },
   {
     content: "Doświadczenie w procesach cięcia, toczenia i wytaczania",
-    done: false,
-    comment:
-      "Np. specyfikowania piły do cięcia prętów na protytpownię Fangshan, specyfikowanie listy narzędzi uzbrajanie CNC Nakamura, wytaczak piko do MR-owych tłoczysk",
+    done: true,
+    comment: "",
   },
   {
     content: "Bardzo dobra znajomość tworzenia G-Codów.",
-    done: false,
-    comment: "",
+    done: true,
+    comment:
+      "Pisałem samodzielnie programy na obróbkę oraz uruchamiałem je na tokarkach dwu-głowicowych i dwu wrzecionowych CNC TW-8 oraz FAST-CUT",
   },
   {
     content: `Odbyte szkolenia z obsługi i programowania jednego ze sterowników:<br><br>
      -Sinumerik<br>
      -Mazatrol`,
-    done: false,
-    comment: "Posiadam formalne szkolenia z obu sterowników",
+    done: true,
+    comment:
+      'Posiadam formalne szkolenia z obu sterowników potwierdzone zdobyciem certyfikatów świadczących o ukończeniu kursu, ponadto odbyłem szkolenie z obsługi i programowania maszyn dwu-wrzecionowych ze sterownikiem "Fanuc".',
   },
   {
     content: `Odbyte szkolenia i/lub praktyka z doboru odpowiednich narzędzi, systemu mocowania oraz parametrów skrawania dla trzech z sześciu zabiegów:<br><br>
@@ -42,60 +44,62 @@ let tasks = [
       -Toczenia poligoniczne,<br>
       -Frezowania.
     `,
-    done: false,
-    comment: "Posiadam formalne szkolenie w tym zakresie oraz doświadczenie",
+    done: true,
+    comment:
+      "Posiadam formalne szkolenie (Metal Cutting Technology E-Learning) w tym zakresie oraz praktykę zdobytą podczas uruchamiania wielu projektów.",
   },
   {
     content:
       "Umiejętności pomiarowe dla wytworzonych charakterystyk z powyższych zabiegów (uwzględniając: pomiar gwintu, chropowatość powierzchni, mikroskop Shaftscope).",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content:
       "Znajomość konstrukcji maszyn wielowrzecionowych oraz ich specyfiki i ograniczeń.",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content:
       "Umiejętność projektowania sekwencji i parametrów obróbki tłoczysk na maszynach wielowrzecionowych.",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content:
       "Umiejętność doboru narzędzi i pozostałych elementów łańcucha kinematycznego dla obróbki z napędem.",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content:
       "Umiejętność szacowania czasu przezbrojenia dla różnych konstrukcji obrabianego wyrobu.",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content:
       "Znajomość specyfiki różnych metod walcowania i praktyczna umiejętność ustawiania głowic.",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content: "Znajomość weryfikacji zużycia narzędzia skrawającego.",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content: "Znajomość wstępnej weryfikacji serwisowej maszyn CNC.",
-    done: false,
+    done: true,
     comment: "",
   },
   {
     content:
       "Uczestnictwo w specyfikowaniu wymagań dla maszyn przeznaczonych do obróbki skrawaniem.",
-    done: false,
-    comment: "",
+    done: true,
+    comment:
+      "Przygotowywałem specyfikacje wymagań na maszyny CNC 2-wrzecionowe (Nakamura TW-8) oraz 6-wrzecionowe (AS-25 oraz Metra)",
   },
   {
     content: "Opublikowane karty Lesson Learnt w zakresie obróbki skrawaniem.",
@@ -105,20 +109,19 @@ let tasks = [
   {
     content:
       "Udział w tworzeniu lub aktualizacji BOP w zakresie obróbki skrawaniem.",
-    done: false,
-    comment:
-      "Przygotowywanie BOP-a na szlifowanie, oraz przygotowania procesów prototypowych dotyczących operacji tokarskich w TCK",
+    done: true,
+    comment: `Jestem autorem BOP-a do procesu szlifowania (ścierna obróbka skrawaniem), natomiast nie brałem udziału w tworzeniu lub aktualizacji BOP-a dotyczącego obróbki tokarskiej (wiórowa obróbka skrawaniem) bo ktoś inny został do tego wyznaczony. Przygotowywałem specyficzne procesy prototypowe pod "Dual Rida" ponieważ przygotowany wcześniej BOP prototypowy nie uwzględniał zabiegów wytaczania oraz gwintowania wewnętrznego (wcześniej nie było takiego designu). Przygotowałem również "generic CP" na obszar obróbki CNC w Fangshan w celu ustandaryzowania planów kontroli pod nowe projekty w na tym obszarze.`,
   },
   {
     content:
       "Prowadzenie szkoleń stanowiskowych z zakresu maszyn przeznaczonych do obróbki skrawaniem.",
-    done: false,
-    comment: `Prowadzenie szkoleń z zakresu obsługi i programowania tokarek Nakamur TW-8 w Fangshan dla członkow zespołu - tzw."training on the job"`,
+    done: true,
+    comment: `Prowadziłem szkolenia z zakresu obsługi i programowania tokarek Nakamura TW-8 w Fangshan dla członkow zespołu - tzw."training on the job"`,
   },
   {
     content:
       "Gotowość do pracy w zespole międzynarodowym i wsparcia technicznego fabryk BWI na całym świecie.",
-    done: false,
+    done: true,
     comment: "",
   },
 ];
@@ -127,6 +130,7 @@ let notMetSpanActive = false;
 let metSpanActive = false;
 let allSpanActive = true;
 let showHideSwitch = true;
+const checkIcon = `<i class="fa-solid fa-check"></i>`;
 
 const tasksList = document.querySelector(".js-tasksSection__tasksList");
 const tasksNavigation = document.querySelector(".js-tasksSection__navigation");
@@ -284,7 +288,6 @@ const showAll = () => {
 };
 
 const render = () => {
-  const checkIcon = `<i class="fa-solid fa-check"></i>`;
   tasks.forEach((task) => {
     tasksList.innerHTML += `
     <li class="tasksListItem">
@@ -298,11 +301,12 @@ const render = () => {
         <button class="tasksListItem__removeButton">
           <i class="fa-regular fa-trash-can"></i>
         </button> 
-      </div> 
-      <label class="label">Komentarz <textarea class="comments">${
-        task.comment
-      }</textarea>
-      </label>
+      </div>
+      <label class="label ${
+        task.comment === "" ? "hiddenEmptyComments" : null
+      }">
+      Komentarz <textarea class="comments">${task.comment}</textarea>
+    </label>
     </li>
     `;
   });
@@ -323,13 +327,34 @@ const renderNavElements = () => {
     <span class="tasksSection__comments"
     >${!showHideSwitch ? "Pokaż komentarze" : "Ukryj komentarze"}</span>
     <span class="tasksSection__notMet ${notMetSpanActive ? "Active" : ""}"
-    >Pokaż niespełnione</span>
+    >Pokaż niespełnione<button class="tasksListItem__removeButton--special">X</button>
+    </span>
     <span class="tasksSection__met ${metSpanActive ? "Active" : ""}"
-    >Pokaż spełnione</span>
+    >Pokaż spełnione<button class="tasksListItem__checkButton--special">${checkIcon}</button></span>
     <span class="tasksSection__all ${allSpanActive ? "Active" : ""}"
     >Pokaż wszystkie</span>`;
   }
 };
 
 init();
-selectAndAddListenersToNavSpans();
+
+const textAreas = document.querySelectorAll(".comments");
+console.log(textAreas);
+
+const textAreaAdjust = () => {
+  const textAreas = document.querySelectorAll(".comments");
+  console.log(textAreas);
+  textAreas.forEach((area) => {
+    area.style.height = "1px";
+    // area.style.height = "auto";
+    area.style.minHeight = area.scrollHeight;
+    area.style.height = 15 + area.scrollHeight + "px";
+  });
+};
+
+window.addEventListener("load", () => textAreaAdjust());
+
+// textAreas.forEach((area) =>
+//   area.addEventListener("keyup", () => textAreaAdjust(area))
+// );
+// selectAndAddListenersToNavSpans();
