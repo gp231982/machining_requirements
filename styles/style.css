@@ -169,6 +169,7 @@ html {
 .tasksListItem__contentSpan {
   padding: 30px;
   font-size: 16px;
+  hyphens: auto;
   word-break: break-word;
   flex-grow: 1;
 }
@@ -184,6 +185,7 @@ html {
   transition: 0.3s;
   color: white;
   border: none;
+  pointer-events: none;
 }
 
 .tasksListItem__checkButton--special {
@@ -194,6 +196,7 @@ html {
   color: white;
   border: none;
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .tasksListItem__checkButton:hover {
@@ -209,6 +212,7 @@ html {
   color: white;
   border: none;
   display: none;
+  pointer-events: none;
 }
 
 .tasksListItem__removeButton--special {
@@ -219,6 +223,7 @@ html {
   color: white;
   border: none;
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .tasksListItem__removeButton:hover {
@@ -230,9 +235,15 @@ html {
   background-color: red;
 }
 
-.Active {
+.active {
   color: #d4dbe3;
   pointer-events: none;
+}
+
+.disabled {
+  color: whitesmoke;
+  pointer-events: none;
+  background-color: #d4dbe3;
 }
 
 .label {
@@ -240,8 +251,6 @@ html {
 }
 
 .comments {
-  min-height: 50px;
-  /* max-height: 200px; */
   width: 100%;
   vertical-align: middle;
   padding: 10px;
@@ -321,9 +330,18 @@ html {
 }
 
 @media (max-width: 500px) {
+  .tasksSection__tasksList {
+    margin-block-start: 0;
+    padding: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
   .tasksListItem {
     justify-content: space-evenly;
-    text-align: center;
+    /* text-align: center; */
   }
 }
 

@@ -305,7 +305,7 @@ const render = () => {
       <label class="label ${
         task.comment === "" ? "hiddenEmptyComments" : null
       }">
-      Komentarz <textarea class="comments">${task.comment}</textarea>
+      Komentarz <textarea disabled class="comments">${task.comment}</textarea>
     </label>
     </li>
     `;
@@ -326,12 +326,17 @@ const renderNavElements = () => {
     <h2 class="tasksSection__header">Lista wymagań</h2>
     <span class="tasksSection__comments"
     >${!showHideSwitch ? "Pokaż komentarze" : "Ukryj komentarze"}</span>
-    <span class="tasksSection__notMet ${notMetSpanActive ? "Active" : ""}"
-    >Pokaż niespełnione<button class="tasksListItem__removeButton--special">X</button>
+    <span class="tasksSection__notMet ${notMetSpanActive ? "active" : ""}"
+    >Pokaż niespełnione<button class="tasksListItem__removeButton--special ${
+      notMetSpanActive ? "disabled" : ""
+    }">X</button>
     </span>
-    <span class="tasksSection__met ${metSpanActive ? "Active" : ""}"
-    >Pokaż spełnione<button class="tasksListItem__checkButton--special">${checkIcon}</button></span>
-    <span class="tasksSection__all ${allSpanActive ? "Active" : ""}"
+    <span class="tasksSection__met ${metSpanActive ? "active" : ""}"
+    >Pokaż spełnione<button class="tasksListItem__checkButton--special ${
+      metSpanActive ? "disabled" : ""
+    }"
+    >${checkIcon}</button></span>
+    <span class="tasksSection__all ${allSpanActive ? "active" : ""}"
     >Pokaż wszystkie</span>`;
   }
 };
@@ -346,9 +351,8 @@ const textAreaAdjust = () => {
   console.log(textAreas);
   textAreas.forEach((area) => {
     area.style.height = "1px";
-    // area.style.height = "auto";
     area.style.minHeight = area.scrollHeight;
-    area.style.height = 15 + area.scrollHeight + "px";
+    area.style.height = 30 + area.scrollHeight + "px";
   });
 };
 
